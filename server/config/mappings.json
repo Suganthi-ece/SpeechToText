@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "watson_text_to_speech_apikey": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-41-31362:apikey",
+      "cloudfoundry:$['textToSpeech'][0].credentials.apikey",
+      "env:service_watson_text_to_speech:$.apikey",
+      "env:watson_text_to_speech_apikey",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_apikey"
+    ]
+  },
+  "watson_text_to_speech": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:Text to Speech-41-31362:url",
+        "cloudfoundry:watson_text_to_speech",
+        "env:watson_text_to_speech_credentials",
+        "file:/server/localdev-config.json:watson_text_to_speech_credentials"
+      ]
+    }
+  },
+  "watson_text_to_speech_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-41-31362:iam_apikey_description",
+      "cloudfoundry:$['textToSpeech'][0].credentials.iam_apikey_description",
+      "env:service_watson_text_to_speech:$.iam_apikey_description",
+      "env:watson_text_to_speech_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_apikey_description"
+    ]
+  },
+  "watson_text_to_speech_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-41-31362:iam_apikey_name",
+      "cloudfoundry:$['textToSpeech'][0].credentials.iam_apikey_name",
+      "env:service_watson_text_to_speech:$.iam_apikey_name",
+      "env:watson_text_to_speech_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_apikey_name"
+    ]
+  },
+  "watson_text_to_speech_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-41-31362:iam_role_crn",
+      "cloudfoundry:$['textToSpeech'][0].credentials.iam_role_crn",
+      "env:service_watson_text_to_speech:$.iam_role_crn",
+      "env:watson_text_to_speech_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_role_crn"
+    ]
+  },
+  "watson_text_to_speech_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-41-31362:iam_serviceid_crn",
+      "cloudfoundry:$['textToSpeech'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_text_to_speech:$.iam_serviceid_crn",
+      "env:watson_text_to_speech_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_iam_serviceid_crn"
+    ]
+  },
+  "watson_text_to_speech_url": {
+    "searchPatterns": [
+      "user-provided:Text to Speech-41-31362:url",
+      "cloudfoundry:$['textToSpeech'][0].credentials.url",
+      "env:service_watson_text_to_speech:$.url",
+      "env:watson_text_to_speech_url",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_url"
+    ]
+  },
+  "watson_language_translator_apikey": {
+    "searchPatterns": [
+      "user-provided:Language Translator-j9-28962:apikey",
+      "cloudfoundry:$['languageTranslator'][0].credentials.apikey",
+      "env:service_watson_language_translator:$.apikey",
+      "env:watson_language_translator_apikey",
+      "file:/server/localdev-config.json:$.watson_language_translator_apikey"
+    ]
+  },
+  "watson_language_translator": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:Language Translator-j9-28962:url",
+        "cloudfoundry:watson_language_translator",
+        "env:watson_language_translator_credentials",
+        "file:/server/localdev-config.json:watson_language_translator_credentials"
+      ]
+    }
+  },
+  "watson_language_translator_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:Language Translator-j9-28962:iam_apikey_description",
+      "cloudfoundry:$['languageTranslator'][0].credentials.iam_apikey_description",
+      "env:service_watson_language_translator:$.iam_apikey_description",
+      "env:watson_language_translator_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_language_translator_iam_apikey_description"
+    ]
+  },
+  "watson_language_translator_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:Language Translator-j9-28962:iam_apikey_name",
+      "cloudfoundry:$['languageTranslator'][0].credentials.iam_apikey_name",
+      "env:service_watson_language_translator:$.iam_apikey_name",
+      "env:watson_language_translator_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_language_translator_iam_apikey_name"
+    ]
+  },
+  "watson_language_translator_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:Language Translator-j9-28962:iam_role_crn",
+      "cloudfoundry:$['languageTranslator'][0].credentials.iam_role_crn",
+      "env:service_watson_language_translator:$.iam_role_crn",
+      "env:watson_language_translator_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_language_translator_iam_role_crn"
+    ]
+  },
+  "watson_language_translator_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:Language Translator-j9-28962:iam_serviceid_crn",
+      "cloudfoundry:$['languageTranslator'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_language_translator:$.iam_serviceid_crn",
+      "env:watson_language_translator_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_language_translator_iam_serviceid_crn"
+    ]
+  },
+  "watson_language_translator_url": {
+    "searchPatterns": [
+      "user-provided:Language Translator-j9-28962:url",
+      "cloudfoundry:$['languageTranslator'][0].credentials.url",
+      "env:service_watson_language_translator:$.url",
+      "env:watson_language_translator_url",
+      "file:/server/localdev-config.json:$.watson_language_translator_url"
+    ]
+  },
+  "watson_speech_to_text_apikey": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-i9-43383:apikey",
+      "cloudfoundry:$['speechToText'][0].credentials.apikey",
+      "env:service_watson_speech_to_text:$.apikey",
+      "env:watson_speech_to_text_apikey",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_apikey"
+    ]
+  },
+  "watson_speech_to_text": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:Speech to Text-i9-43383:url",
+        "cloudfoundry:watson_speech_to_text",
+        "env:watson_speech_to_text_credentials",
+        "file:/server/localdev-config.json:watson_speech_to_text_credentials"
+      ]
+    }
+  },
+  "watson_speech_to_text_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-i9-43383:iam_apikey_description",
+      "cloudfoundry:$['speechToText'][0].credentials.iam_apikey_description",
+      "env:service_watson_speech_to_text:$.iam_apikey_description",
+      "env:watson_speech_to_text_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_apikey_description"
+    ]
+  },
+  "watson_speech_to_text_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-i9-43383:iam_apikey_name",
+      "cloudfoundry:$['speechToText'][0].credentials.iam_apikey_name",
+      "env:service_watson_speech_to_text:$.iam_apikey_name",
+      "env:watson_speech_to_text_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_apikey_name"
+    ]
+  },
+  "watson_speech_to_text_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-i9-43383:iam_role_crn",
+      "cloudfoundry:$['speechToText'][0].credentials.iam_role_crn",
+      "env:service_watson_speech_to_text:$.iam_role_crn",
+      "env:watson_speech_to_text_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_role_crn"
+    ]
+  },
+  "watson_speech_to_text_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-i9-43383:iam_serviceid_crn",
+      "cloudfoundry:$['speechToText'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_speech_to_text:$.iam_serviceid_crn",
+      "env:watson_speech_to_text_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_iam_serviceid_crn"
+    ]
+  },
+  "watson_speech_to_text_url": {
+    "searchPatterns": [
+      "user-provided:Speech to Text-i9-43383:url",
+      "cloudfoundry:$['speechToText'][0].credentials.url",
+      "env:service_watson_speech_to_text:$.url",
+      "env:watson_speech_to_text_url",
+      "file:/server/localdev-config.json:$.watson_speech_to_text_url"
+    ]
+  },
+  "cloudant_apikey": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:apikey",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.apikey",
+      "env:service_cloudant:$.apikey",
+      "env:cloudant_apikey",
+      "file:/server/localdev-config.json:$.cloudant_apikey"
+    ]
+  },
+  "cloudant": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:nodespeechtotext-cloudant-1603273481720-79715:username",
+        "cloudfoundry:cloudant",
+        "env:cloudant_credentials",
+        "file:/server/localdev-config.json:cloudant_credentials"
+      ]
+    }
+  },
+  "cloudant_host": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:host",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.host",
+      "env:service_cloudant:$.host",
+      "env:cloudant_host",
+      "file:/server/localdev-config.json:$.cloudant_host"
+    ]
+  },
+  "cloudant_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:iam_apikey_description",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_description",
+      "env:service_cloudant:$.iam_apikey_description",
+      "env:cloudant_iam_apikey_description",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_description"
+    ]
+  },
+  "cloudant_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:iam_apikey_name",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_name",
+      "env:service_cloudant:$.iam_apikey_name",
+      "env:cloudant_iam_apikey_name",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_name"
+    ]
+  },
+  "cloudant_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:iam_role_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_role_crn",
+      "env:service_cloudant:$.iam_role_crn",
+      "env:cloudant_iam_role_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_role_crn"
+    ]
+  },
+  "cloudant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:iam_serviceid_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_serviceid_crn",
+      "env:service_cloudant:$.iam_serviceid_crn",
+      "env:cloudant_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_serviceid_crn"
+    ]
+  },
+  "cloudant_password": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:password",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.password",
+      "env:service_cloudant:$.password",
+      "env:cloudant_password",
+      "file:/server/localdev-config.json:$.cloudant_password"
+    ]
+  },
+  "cloudant_port": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:port",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.port",
+      "env:service_cloudant:$.port",
+      "env:cloudant_port",
+      "file:/server/localdev-config.json:$.cloudant_port"
+    ]
+  },
+  "cloudant_url": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:url",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.url",
+      "env:service_cloudant:$.url",
+      "env:cloudant_url",
+      "file:/server/localdev-config.json:$.cloudant_url"
+    ]
+  },
+  "cloudant_username": {
+    "searchPatterns": [
+      "user-provided:nodespeechtotext-cloudant-1603273481720-79715:username",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.username",
+      "env:service_cloudant:$.username",
+      "env:cloudant_username",
+      "file:/server/localdev-config.json:$.cloudant_username"
+    ]
+  }
+}
